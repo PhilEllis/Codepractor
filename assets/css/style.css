@@ -175,7 +175,7 @@
   #preloader:before,
   #preloader:after {
     content: "";
-    background-color: var(--color-secondary);
+    background-color: #1a0128;
     position: absolute;
     inset: 0;
     width: 50%;
@@ -1218,6 +1218,10 @@
   
   .hero .btn-get-started:hover {
     background: #2cbc85;
+  }
+
+  .hero .codepractor {
+    margin-top: 150px;
   }
   
   @media (max-width: 768px) {
