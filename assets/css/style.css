@@ -1,4 +1,6 @@
 /* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
 :root {
     --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-primary: "Inter", sans-serif;
@@ -1222,6 +1224,21 @@
 
   .hero .codepractor {
     margin-top: 150px;
+    width: 1000px;
+    height: 60px;
+  }
+
+  .hero p {
+    font-size: 16px;
+    color: #e4e4e4;
+    font-family: Caveat;
+    font-size: 26px;
+  }
+
+  .hero .instaicon {
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
   }
   
   @media (max-width: 768px) {
